@@ -1,10 +1,10 @@
 # Site settings
-title: “孤独的懒猫”
+title: 孤独的懒猫
 email: sxm5220@gmail.com
 description: “测试博客一下下～.”
 baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: “测试一下博客怎么做～.”
+title_description: 我很懒，真的，老懒了～
 title_image: "http://upload.jianshu.io/users/upload_avatars/1024015/30619702b129.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/300"
 google_analytics: "UA-20365477-4"
 disqus_account: cartenoire
@@ -13,10 +13,10 @@ addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-instagram_username: 
-reddit_username: 
+#twitter_username: _jacobtomlinson
+#github_username:  jacobtomlinson
+instagram_username:
+reddit_username:
 linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
 google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
 stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
