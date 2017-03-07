@@ -8,9 +8,9 @@ layout: default
     <h1 class="header author-header">Search</h1>
 
     <div id="search-container">
-      <input type="text" id="search-input" placeholder="Type here...">
+      <input type="text" id="search-input" placeholder="在这找找看...">
       <div class="col-md-12 content-panel articles">
-        <ul id="results-container"><small>Start typing to see some results</small></ul>
+        <ul id="results-container"><small>你想找啥? O.O</small></ul>
       </div>
     </div>
 
@@ -27,7 +27,7 @@ layout: default
     resultsContainer: document.getElementById('results-container'),
     dataSource: '{{ site.baseurl }}/search.json',
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',
-    noResultsText: 'No results found',
+    noResultsText: '亲还没有呢～',
     limit: 10,
     fuzzy: true,
   })
