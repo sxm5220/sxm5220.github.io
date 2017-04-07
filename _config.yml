@@ -4,7 +4,7 @@ email: sxm5220@gmail.com
 description: “测试博客一下下～.”
 baseurl: ""
 #url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: 我很懒，真的，老懒了～怎么不好使啊？什么鬼？
+title_description: 老懒了～
 title_image: "http://upload.jianshu.io/users/upload_avatars/1024015/30619702b129.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/300"
 
 markdown: kramdown
