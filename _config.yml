@@ -13,17 +13,6 @@ github_repository: "https://github.com/jacobtomlinson/jacobtomlinson.github.io"
 addthis_id: "ra-513c6fa83da6ec67"
 post_limit: 5
 
-# Social usernames/URLs
-twitter_username: "_jacobtomlinson"
-github_username:  "jacobtomlinson"
-linkedin_link: "http://www.linkedin.com/pub/jacob-tomlinson/34/b67/84"
-google_plus_link: "https://plus.google.com/+JacobTomlinson0/"
-stackoverflow_link: "http://stackoverflow.com/users/1003288/jacob-tomlinson"
-
-# Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> using <a href=\"http://jekyllrb.com/\">Jekyll</a>"
-footer_right: "<i class=\"fa fa-code\"></i> on <a href=\"https://github.com/jacobtomlinson/jacobtomlinson.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
-
 # Build settings
 markdown: kramdown
 
