@@ -101,7 +101,18 @@ layout: default
         {% endif %}
 
       </div>
-
+      <ul class="pager">
+        {% if page.previous.url %}
+        <li class="previous">
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; 上一篇</a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="next">
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一篇 &rarr;</a>
+        </li>
+        {% endif %}
+      </ul>
 <!--
       {% if site.twitter_username and site.disqus_account %}
       <div class="content-panel feedback">
@@ -125,7 +136,7 @@ layout: default
       <div class="content-panel comments">
         <div id="disqus_thread">
           <noscript>查看评论请启用 <a href="http://disqus.com/?ref_noscript">Disqus</a></noscript>
-          <a href="http://disqus.com" class="dsq-brlink">评论通过 <span class="logo-disqus">Disqus</span></a>
+          <a href="http://disqus.com" class="dsq-brlink">通过 <span class="logo-disqus">Disqus评论</span></a>
         </div>
       </div>
       {% endif %}
