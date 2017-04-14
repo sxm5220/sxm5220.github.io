@@ -8,8 +8,12 @@ author_name: "孤独的懒猫"
 title_image: "https://avatars3.githubusercontent.com/u/6355504?v=3&u=53d967dd8958b8952d52fc770a2a716973c99d80&s=400"
 
 title_description: "举杯邀明月，对影成三人!"
+#广告配置
+google:
+    ad-client: "ca-pub-9882771134185440"
+    ad-slot: "8759608812"
 #google_analytics: "UA-20365477-2"
-#disqus_account: "jacobtomlinson"
+disqus_account: "sxm5220"
 github_repository: "https://sxm5220.github.io"
 #addthis_id: "ra-513c6fa83da6ec67"
 post_limit: 5
