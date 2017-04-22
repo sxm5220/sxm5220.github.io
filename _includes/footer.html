@@ -14,7 +14,9 @@
       <a>～猫粮～</a>
     </div>
     <div align="center">
+      {% if site.google_ad_client %}
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- google_ad_word -->
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="{{ site.google_ad_client }}"
@@ -23,6 +25,7 @@
       <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
+      {% endif %}
     </div>
   </div>
 </div>
