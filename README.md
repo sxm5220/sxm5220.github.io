@@ -1,3 +1,1 @@
-# Carte Noire
-
-用的是这位高手的 blog 模板  （https://github.com/jacobtomlinson/jacobtomlinson.github.io ）
+面对生活，记录一些心情感想，迟暮之年，坐在夕阳下回味一下自己的青春，看看人生这一路上的历程，哪怕找回那一点点的记忆，证明自己曾来过这个世界！
