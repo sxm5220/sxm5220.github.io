@@ -13,13 +13,15 @@ make-smaller-titles: true
                 <img src="{{ site.title_image }}" class="img-circle about-image" height="140" width="140" alt="{{ site.title }}" />
             </div>
 
-            <h3 class="header author-header" itemprop="headline">{{ site.title }}</h3>
+            <div class="header author-header" itemprop="headline">
+              <h1>{{ site.title }}</h1>
+            </div>
 
             <div class="author-text">
                 <h4>{{ site.title_description }}</h4>
             </div>
 
-            <!--{% include social_links.html %}-->
+            {% include social_links.html %}
           </div>
           <div class="col-md-12 main content-panel">
 
@@ -44,5 +46,5 @@ make-smaller-titles: true
         </div>
 
     </div>
-    
+
 </div>

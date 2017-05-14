@@ -18,6 +18,8 @@ github_repository: "https://sxm5220.github.io"
 #addthis_id: "ra-513c6fa83da6ec67"
 post_limit: 5
 
+github_username:  sxm5220
+
 # Build settings
 markdown: kramdown
 
