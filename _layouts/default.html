@@ -4,22 +4,23 @@
     {% include head.html %}
 
     <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
-
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
           google_ad_client: "ca-pub-9882771134185440",
           enable_page_level_ads: true
      });
 </script>
-   
+        
+    {% include header.html %}
+        
+    <div class="page-content">
+      <div class="wrap">
+      {{ content }}
+      </div>
+    </div>
+        
+   {% include footer.html %}
+        
     </body>
 </html>
