@@ -1,0 +1,153 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>孤独帮</title>
+  <subtitle>孤独教会了我们去尊重孤单</subtitle>
+  <updated>2022-08-29T13:45:39+08:00</updated>
+  <author>
+    <name>Symon</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="zh-CN"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022 Symon </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>你好2018</title>
+    <link href="http://localhost:4000/posts/%E4%BD%A0%E5%A5%BD2018/" rel="alternate" type="text/html" title="你好2018" />
+    <published>2018-03-05T02:00:00+08:00</published>
+  
+    <updated>2018-03-05T02:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E4%BD%A0%E5%A5%BD2018/</id>
+    <content src="http://localhost:4000/posts/%E4%BD%A0%E5%A5%BD2018/" />
+    <author>
+      <name>Symon</name>
+    </author>
+
+  
+    
+    <category term="心情" />
+    
+  
+
+  
+    <summary>随笔</summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>新的家</title>
+    <link href="http://localhost:4000/posts/%E6%96%B0%E7%9A%84%E5%AE%B6/" rel="alternate" type="text/html" title="新的家" />
+    <published>2017-11-26T04:15:00+08:00</published>
+  
+    <updated>2017-11-26T04:15:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E6%96%B0%E7%9A%84%E5%AE%B6/</id>
+    <content src="http://localhost:4000/posts/%E6%96%B0%E7%9A%84%E5%AE%B6/" />
+    <author>
+      <name>Symon</name>
+    </author>
+
+  
+    
+    <category term="心情" />
+    
+  
+
+  
+    <summary>在秦皇岛买了一套新房子</summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>寻觅</title>
+    <link href="http://localhost:4000/posts/%E5%AF%BB%E8%A7%85/" rel="alternate" type="text/html" title="寻觅" />
+    <published>2017-11-21T04:00:00+08:00</published>
+  
+    <updated>2017-11-21T04:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%AF%BB%E8%A7%85/</id>
+    <content src="http://localhost:4000/posts/%E5%AF%BB%E8%A7%85/" />
+    <author>
+      <name>Symon</name>
+    </author>
+
+  
+    
+    <category term="心情" />
+    
+  
+
+  
+    <summary>填词</summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>再见五月</title>
+    <link href="http://localhost:4000/posts/%E5%86%8D%E8%A7%81%E4%BA%94%E6%9C%88/" rel="alternate" type="text/html" title="再见五月" />
+    <published>2017-06-05T04:30:00+08:00</published>
+  
+    <updated>2017-06-05T04:30:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%86%8D%E8%A7%81%E4%BA%94%E6%9C%88/</id>
+    <content src="http://localhost:4000/posts/%E5%86%8D%E8%A7%81%E4%BA%94%E6%9C%88/" />
+    <author>
+      <name>Symon</name>
+    </author>
+
+  
+    
+    <category term="心情" />
+    
+  
+
+  
+    <summary>这个五月份经历了很多事儿</summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>swift笔记</title>
+    <link href="http://localhost:4000/posts/swift%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="swift笔记" />
+    <published>2017-05-15T18:30:00+08:00</published>
+  
+    <updated>2017-05-15T18:30:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/swift%E7%AC%94%E8%AE%B0/</id>
+    <content src="http://localhost:4000/posts/swift%E7%AC%94%E8%AE%B0/" />
+    <author>
+      <name>Symon</name>
+    </author>
+
+  
+    
+    <category term="swift" />
+    
+  
+
+  
+    <summary>swift笔记记录</summary>
+  
+
+  </entry>
+
+</feed>
+
+

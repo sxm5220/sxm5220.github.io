@@ -1,0 +1,254 @@
+# The Site Configuration
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+title: 孤独帮                          # the main title
+
+tagline: 孤独教会了我们去尊重孤单   # it will display as the sub-title
+
+description: >-                        # used by seo meta and the atom feed
+  孤独教会了我们去尊重孤单
+
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: 'https://sxm5220.github.io/'
+
+author: Symon
+
+github:
+  username: sxm5220             # change to your github username
+
+twitter:
+  username: sxm_5220            # change to your twitter username
+
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: Symon
+  email: sxm5220@gmail.com             # change to your email address
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/sxm_5220      # change to your twitter homepage
+    - https://github.com/sxm5220       # change to your github homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
+
+google_site_verification:               # fill in to your verification string
+
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
+# and doesn't have a custom domain.
+baseurl: ''
+
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Asia/Shanghai
+
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
+
+#广告配置
+google_ad_slot: 8759608812
+google_ad_client: ca-pub-9882771134185440
+
+google_analytics:
+  id: 'UA-97394042-1' #'G-TJL1M52M7E'          # Fill with your Google Analytics ID
+  pv:
+    # The Google Analytics pageviews switch.
+    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
+    enabled: false
+    # the next options only valid when `google_analytics.pv` is enabled.
+    proxy_url: ''
+    proxy_endpoint: ''
+    cache: false  # pv data local cache, good for the users from GFW area.
+
+disqus:
+  comments: false  # boolean type, the global switch for posts comments.
+  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+utterances:
+  comments: true
+  light_theme: github-light
+  dark_theme: photon-dark
+  repo: sxm5220/sxm5220.github.io
+
+theme_mode:   # [light|dark]
+
+# Prefer color scheme setting.
+#
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
+#
+#     light  - Use the light color scheme
+#     dark   - Use the dark color scheme
+#
+# Import the theme
+theme: jekyll-theme-chirpy
+
+
+
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: zh-CN
+
+# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
+prefer_datetime_locale:
+
+# The CDN endpoint for images.
+# Notice that once it is assigned, the CDN url
+# will be added to all image (site avatar & posts' images) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+img_cdn: ''
+
+# the avatar on sidebar, support local or CORS resources
+avatar: '/assets/img/avatar.png'
+
+# boolean type, the global switch for ToC in posts.
+toc: true
+
+paginate: 10
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+permalink: /posts/:title/
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  -
+    scope:
+      path: ''          # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true    # Enable comments in posts.
+      toc: true         # Display TOC column in posts.
+      breadcrumb:
+        -
+          label: 主页
+          url: /
+  -
+    scope:
+      path: _drafts
+    values:
+      comments: false
+  -
+    scope:
+      path: index.html
+    values:
+      breadcrumb:
+        -
+          label: 主页
+  -
+    scope:
+      path: tags
+    values:
+      breadcrumb:
+        -
+          label: 主页
+          url: /
+        -
+          label: 标签
+          url: /tabs/tags/
+  -
+    scope:
+      path: categories
+    values:
+      breadcrumb:
+        -
+          label: 主页
+          url: /
+        -
+          label: 分类
+          url: /tabs/categories/
+  -
+    scope:
+      path: ''
+      type: tabs             # see `site.collections`
+    values:
+      layout: page
+      dynamic_title: true    # Hide title in mobile screens.
+      breadcrumb:
+        -
+          label: 主页
+          url: /
+
+sass:
+  sass_dir: /assets/css
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - '*.gem'
+  - '*.gemspec'
+  - tools
+  - README.md
+  - LICENSE
+  - gulpfile.js
+  - node_modules
+  - package*.json
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+
+  comments:
+    active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+    # The active options are as follows:
+    disqus:
+      shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    # utterances settings › https://utteranc.es/
+    utterances:
+      repo:         # <gh-username>/<repo>
+      issue_term:   # < url | pathname | title | ...>
+    # Giscus options › https://giscus.app
+    giscus:
+      repo:             # <gh-username>/<repo>
+      repo_id:
+      category:
+      category_id:
+      mapping:          # optional, default to 'pathname'
+      input_position:   # optional, default to 'bottom'
+      lang:             # optional, default to the value of `site.lang`
+
+  # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+  assets:
+    self_host:
+      enabled:      # boolean, keep empty means false
+      # specify the Jekyll environment, empty means both
+      # only works if `assets.self_host.enabled` is 'true'
+      env:          # [development|production]
+
+  pwa:
+    enabled: true   # the option for PWA feature
