@@ -1,45 +1,41 @@
----
-layout: compress
-
-# The list to be cached by PWA
----
-
 const resource = [
 
   /* --- CSS --- */
-  '{{ "/assets/css/style.css" | relative_url }}',
+  '/assets/css/style.css',
 
   /* --- PWA --- */
-  '{{ "/app.js" | relative_url }}',
-  '{{ "/sw.js" | relative_url }}',
+  '/app.js',
+  '/sw.js',
 
   /* --- HTML --- */
-  '{{ "/index.html" | relative_url }}',
-  '{{ "/404.html" | relative_url }}',
-  {% for tab in site.tabs %}
-    '{{ tab.url | relative_url }}',
-  {% endfor %}
+  '/index.html',
+  '/404.html',
+  
+    '/tabs/categories/',
+  
+    '/tabs/tags/',
+  
+    '/tabs/archives/',
+  
+    '/tabs/about/',
+  
 
   /* --- Favicons & compressed JS --- */
-  {% assign cache_list = site.static_files | where: 'swcache', true  %}
-  {% for file in cache_list %}
-    '{{ file.path | relative_url }}'{%- unless forloop.last -%},{%- endunless -%}
-  {% endfor %}
+  
+  
 
 ];
 
 /* The request url with below domain will be cached */
 const allowedDomains = [
-  {% if site.google_analytics.id != empty and site.google_analytics.id %}
+  
     'www.googletagmanager.com',
     'www.google-analytics.com',
-  {% endif %}
+  
 
-  '{{ site.url | split: "//" | last }}',
+  'localhost:4000',
 
-  {% if site.img_cdn contains '//' and site.img_cdn %}
-    '{{ site.img_cdn | split: '//' | last | split: '/' | first }}',
-  {% endif %}
+  
 
   'fonts.gstatic.com',
   'fonts.googleapis.com',
@@ -49,7 +45,6 @@ const allowedDomains = [
 
 /* Requests that include the following path will be banned */
 const denyUrls = [
-  {% if site.google_analytics.pv.cache_path %}
-    '{{ site.google_analytics.pv.cache_path | absolute_url }}'
-  {% endif %}
+  
 ];
+
