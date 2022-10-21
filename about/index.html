@@ -548,6 +548,8 @@
 
 <!-- return -->
 
+<p>博客源码（优化完成后，直接把_site文件拿出来上传到GitHub上即可）</p>
+
 <p>Eg:博客使用Jekyll（Blog生成器）</p>
 
 <p>1.sudo gem install jekyll 2.sudo gem install jekyll bundler 3.新建Blog 运行jekyll new xxx(Blog名字) 4.进入xxxBlog目录下 运行 sudo jekyll serve （如果运行失败查看 sudo jekyll serve –trace，遇到的提示是： Address already in use - bind(2) for 127.0.0.1:4000 (Errno::EADDRINUSE)，说明端口被占用） 解决方法：1.查看4000端口举例：查看占用4000端口的服务 sudo lsof -wni tcp:4000</p>
@@ -559,6 +561,10 @@
 <p>再次启动 jekyll 服务正常</p>
 
 <p>5.本地运行起来后会看到 Server address: http://127.0.0.1:4000/ 6.浏览器中运行http://127.0.0.1:4000/ 就会看到新建Blog</p>
+
+<p>如果使用jekyll模版:
+1.模版目录下 bundle
+2.运行 bundle exec jekyll s</p>
 
 
       
