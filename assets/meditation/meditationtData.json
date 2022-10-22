@@ -107,21 +107,6 @@
                 "id": 9,
                 "name": "A-9",
                 "url": "https://sxm5220.github.io/assets/meditation/animations/m09.json"
-            },
-            {
-                "id": 10,
-                "name": "A-10",
-                "url": "https://sxm5220.github.io/assets/meditation/animations/m10.json"
-            },
-            {
-                "id": 11,
-                "name": "A-11",
-                "url": "https://sxm5220.github.io/assets/meditation/animations/m11.json"
-            },
-            {
-                "id": 12,
-                "name": "A-12",
-                "url": "https://sxm5220.github.io/assets/meditation/animations/m12.json"
             }
         ],
         "audioList": [
