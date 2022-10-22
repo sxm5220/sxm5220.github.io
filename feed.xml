@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>孤独帮</title>
   <subtitle>孤独教会了我们去尊重孤单</subtitle>
-  <updated>2022-10-21T15:28:32+08:00</updated>
+  <updated>2022-10-22T10:57:57+08:00</updated>
   <author>
     <name>Symon</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>冥想池</title>
+    <link href="http://localhost:4000/posts/%E5%86%A5%E6%83%B3%E6%B1%A0/" rel="alternate" type="text/html" title="冥想池" />
+    <published>2022-10-21T23:00:00+08:00</published>
+  
+    <updated>2022-10-21T23:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E5%86%A5%E6%83%B3%E6%B1%A0/</id>
+    <content src="http://localhost:4000/posts/%E5%86%A5%E6%83%B3%E6%B1%A0/" />
+    <author>
+      <name>Symon</name>
+    </author>
+
+  
+    
+    <category term="微信小程序" />
+    
+  
+
+  
+    <summary>冥想池资源文件</summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -118,32 +144,6 @@
 
   
     <summary>这个五月份经历了很多事儿</summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>swift笔记</title>
-    <link href="http://localhost:4000/posts/swift%E7%AC%94%E8%AE%B0/" rel="alternate" type="text/html" title="swift笔记" />
-    <published>2017-05-15T18:30:00+08:00</published>
-  
-    <updated>2017-05-15T18:30:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/swift%E7%AC%94%E8%AE%B0/</id>
-    <content src="http://localhost:4000/posts/swift%E7%AC%94%E8%AE%B0/" />
-    <author>
-      <name>Symon</name>
-    </author>
-
-  
-    
-    <category term="swift" />
-    
-  
-
-  
-    <summary>swift笔记记录</summary>
   
 
   </entry>
