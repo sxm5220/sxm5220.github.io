@@ -1,0 +1,51 @@
+{
+    "data": {
+        "itemsList":[
+          {
+            "id": 1,
+            "name": "中医体质自测",
+            "state":"",
+            "url":"/healthyLifestyle/listData/healthylist/imagesData/item011.png",
+            "criterion":"依据中医体质国家标准",
+            "point":"正常和偏颇，你属于哪种体质？",
+            "times":"95000"
+          },
+          {
+            "id": 2,
+            "name": "睡眠自测",
+            "state":"",
+            "url":"/healthyLifestyle/listData/healthylist/imagesData/item02.png",
+            "criterion":"全国协作组制定标准",
+            "point":"睡眠是天然的补药，你的睡眠好吗？",
+            "times":"64000"
+          },
+          {
+            "id": 3,
+            "name": "湿气自测",
+            "state":"",
+            "url":"/healthyLifestyle/listData/healthylist/imagesData/item03.png",
+            "criterion":"依据中医常识自评量表",
+            "point":"十人九湿，你的湿气程度是哪种？",
+            "times":"85000"
+          },
+           {
+            "id": 4,
+            "name": "焦虑自测",
+            "state":"",
+            "url":"/healthyLifestyle/listData/healthylist/imagesData/item04.png",
+            "criterion":"依据国际标准自评量表（SAS）",
+            "point":"面对生活和工作，最近你的情绪还好吗？",
+            "times":"96000"
+          },
+          {
+            "id": 5,
+            "name": "五行人格自测",
+            "state":"",
+            "url":"/healthyLifestyle/listData/healthylist/imagesData/item05.png",
+            "criterion":"依据中国五态人格量表",
+            "point":"金木水火土，你属于哪种人格？",
+            "times":"62000"
+          }
+        ]
+    }
+}

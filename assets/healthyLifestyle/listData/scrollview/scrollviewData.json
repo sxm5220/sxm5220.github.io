@@ -1,0 +1,27 @@
+{
+    "data": {
+        "itemsList":[
+          {
+            "id": 1,
+            "name": "减压助眠",
+            "url":"/healthyLifestyle/listData/scrollview/imagesData/item055.png"
+          },
+          {
+            "id": 2,
+            "name": "养生课堂",
+            "url":"/healthyLifestyle/listData/scrollview/imagesData/item0222.png"
+          },
+          {
+            "id": 3,
+            "name": "健康百科",
+            "url":"/healthyLifestyle/listData/scrollview/imagesData/item033.png"
+          },
+          {
+            "id": 4,
+            "name": "善享生活",
+            "url":"/healthyLifestyle/listData/scrollview/imagesData/item01.png"
+          }
+
+        ]
+    }
+}

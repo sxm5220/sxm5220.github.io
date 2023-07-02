@@ -1,0 +1,41 @@
+{
+    "data": {
+        "imagesList":[
+          {
+            "id": 1,
+            "isclick":true,
+            "location":1,
+            "url":"/healthyLifestyle/listData/banner/imagesData/111.png",
+            "toUrl":""
+          },
+          {
+            "id": 2,
+            "isclick":true,
+            "location":2,
+            "url":"/healthyLifestyle/listData/banner/imagesData/22.png",
+            "toUrl":"/subMainPages/pages/main/sleep/sleep"
+          },
+          {
+            "id": 3,
+            "isclick":true,
+            "location":3,
+            "url":"/healthyLifestyle/listData/banner/imagesData/33.png",
+            "toUrl":"/subMainPages/pages/main/physique/physique"
+          },
+          {
+            "id": 4,
+            "isclick":true,
+            "location":4,
+            "url":"/healthyLifestyle/listData/banner/imagesData/44.png",
+            "toUrl":"/subMainPages/pages/main/meditation/meditation"
+          },
+          {
+            "id": 5,
+            "isclick":false,
+            "location":0,
+            "url":"/healthyLifestyle/listData/banner/imagesData/1111.png",
+            "toUrl":""
+          }
+        ]
+    }
+}

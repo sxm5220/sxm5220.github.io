@@ -1,0 +1,170 @@
+{
+    "data": {
+        "imagesList":[
+          {
+            "id": 1,
+            "name": "BG-1",
+            "url":"/healthyLifestyle/listData/meditation/backgroundimages/1_item_bg_icon@3x.png"
+          },
+          {
+            "id": 2,
+            "name": "BG-2",
+            "url":"/healthyLifestyle/listData/meditation/backgroundimages/2_item_bg_icon@3x.png"
+          },
+          {
+            "id": 3,
+            "name": "BG-3",
+            "url":"/healthyLifestyle/listData/meditation/backgroundimages/3_item_bg_icon@3x.png"
+          },
+          {
+            "id": 4,
+            "name": "BG-4",
+            "url":"/healthyLifestyle/listData/meditation/backgroundimages/4_item_bg_icon@3x.png"
+          },
+          {
+            "id": 5,
+            "name": "BG-5",
+            "url":"/healthyLifestyle/listData/meditation/backgroundimages/5_item_bg_icon@3x.png"
+          },
+          {
+            "id": 6,
+            "name": "BG-6",
+            "url":"/healthyLifestyle/listData/meditation/backgroundimages/6_item_bg_icon@3x.png"
+          },
+          {
+            "id": 7,
+            "name": "BG-7",
+            "url":"/healthyLifestyle/listData/meditation/backgroundimages/7_item_bg_icon@3x.png"
+          },
+          {
+            "id": 8,
+            "name": "BG-8",
+            "url":"/healthyLifestyle/listData/meditation/backgroundimages/8_item_bg_icon@3x.png"
+          }
+        ],
+        "animationList": [
+            {
+                "id": 1,
+                "name": "A-1",
+                "url": "/healthyLifestyle/listData/meditation/animations/m01.json"
+            },
+            {
+                "id": 2,
+                "name": "A-2",
+                "url": "/healthyLifestyle/listData/meditation/animations/m02.json"
+            },
+            {
+                "id": 3,
+                "name": "A-3",
+                "url": "/healthyLifestyle/listData/meditation/animations/m03.json"
+            },
+            {
+                "id": 4,
+                "name": "A-4",
+                "url": "/healthyLifestyle/listData/meditation/animations/m04.json"
+            },
+            {
+                "id": 5,
+                "name": "A-5",
+                "url": "/healthyLifestyle/listData/meditation/animations/m05.json"
+            },
+            {
+                "id": 6,
+                "name": "A-6",
+                "url": "/healthyLifestyle/listData/meditation/animations/m06.json"
+            },
+            {
+                "id": 7,
+                "name": "A-7",
+                "url": "/healthyLifestyle/listData/meditation/animations/m07.json"
+            },
+            {
+                "id": 8,
+                "name": "A-8",
+                "url": "/healthyLifestyle/listData/meditation/animations/m08.json"
+            },
+            {
+                "id": 9,
+                "name": "A-9",
+                "url": "/healthyLifestyle/listData/meditation/animations/m09.json"
+            }
+        ],
+        "audioList": [
+            {
+                "id": 1,
+                "name": "M-1",
+                "url": "/healthyLifestyle/listData/meditation/audios/s01.mp3"
+            },
+            {
+                "id": 2,
+                "name": "M-2",
+                "url": "/healthyLifestyle/listData/meditation/audios/s02.mp3"
+            },
+            {
+                "id": 3,
+                "name": "M-3",
+                "url": "/healthyLifestyle/listData/meditation/audios/s03.mp3"
+            },
+            {
+                "id": 4,
+                "name": "M-4",
+                "url": "/healthyLifestyle/listData/meditation/audios/s04.mp3"
+            },
+            {
+                "id": 5,
+                "name": "M-5",
+                "url": "/healthyLifestyle/listData/meditation/audios/s05.mp3"
+            },
+            {
+                "id": 6,
+                "name": "M-6",
+                "url": "/healthyLifestyle/listData/meditation/audios/s06.mp3"
+            },
+            {
+                "id": 7,
+                "name": "M-7",
+                "url": "/healthyLifestyle/listData/meditation/audios/s07.mp3"
+            },
+            {
+                "id": 8,
+                "name": "M-8",
+                "url": "/healthyLifestyle/listData/meditation/audios/s08.mp3"
+            },
+            {
+                "id": 9,
+                "name": "M-9",
+                "url": "/healthyLifestyle/listData/meditation/audios/s09.mp3"
+            },
+            {
+                "id": 10,
+                "name": "M-10",
+                "url": "/healthyLifestyle/listData/meditation/audios/s10.mp3"
+            },
+            {
+                "id": 11,
+                "name": "M-11",
+                "url": "/healthyLifestyle/listData/meditation/audios/s11.mp3"
+            },
+            {
+                "id": 12,
+                "name": "M-12",
+                "url": "/healthyLifestyle/listData/meditation/audios/s12.mp3"
+            },
+            {
+                "id": 13,
+                "name": "M-13",
+                "url": "/healthyLifestyle/listData/meditation/audios/s13.mp3"
+            },
+            {
+                "id": 14,
+                "name": "M-14",
+                "url": "/healthyLifestyle/listData/meditation/audios/s14.mp3"
+            },
+            {
+                "id": 15,
+                "name": "M-15",
+                "url": "/healthyLifestyle/listData/meditation/audios/s15.mp3"
+            }
+        ]
+    }
+}
